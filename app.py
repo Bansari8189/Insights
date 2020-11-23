@@ -112,7 +112,7 @@ def home():
     # User is not loggedin redirect to login page
     return redirect(url_for('login'))
 
-# http://localhost:5000/pythinlogin/profile - this will be the profile page, only accessible for loggedin users
+# http://localhost:5000/pythinlogin/timeseries - this will be the SalesForecast page, only accessible for loggedin users
 @app.route('/pythonlogin/timeseries')
 def timeseries():
     # Check if user is loggedin
