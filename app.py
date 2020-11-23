@@ -186,6 +186,6 @@ forecast = result.predict(start = len(Insights),
                           typ = 'levels').rename('Forecast')
 
 # Plot the forecast values
-Insights['Sales'].plot(figsize = (12, 5), legend = True)
+Insights['Sales'].plot(figsize = (10, 6), legend = True)
 forecast.plot(legend = True)
 #plt.savefig('forecasted_sales.png')
