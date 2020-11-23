@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<h3>Sales Forecast</h3>
+<img src="{{url_for('static', filename ='forecasted_sales.jpg') }}" width="1100px" height="450px"/>
+
+{% endblock %}
