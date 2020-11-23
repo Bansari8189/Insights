@@ -127,7 +127,9 @@ def timeseries():
     return redirect(url_for('login'))
 
 #Time-seriesForecasting Model
-Insights = pd.read_csv('data/table_sales.csv',
+url='https://github.com/Bansari8189/Insights/blob/main/data/table_sales.csv'
+    
+Insights = pd.read_csv(url,sep=",",
                        index_col ='Month',
                        parse_dates = True , engine='python')
 
