@@ -39,16 +39,26 @@ Press Enter.
  Run npm install in your command line.
 
 These are the files / modules described.
+
   Module	Description
   data	Csv file containing data for Sales
+  
   Style.css	The CSS3 stylesheet for our login and registration system.
+  
   Home.html	The home template to display for logged-in users which will display Power BI dashboard.
+  
   Index.html	Login form created with HTML5 and CSS3.
+  
   Layout.html	The layout template for the home and timeseries page.
+  
   Register.html	Registration form created with HTML5 and CSS3.
+  
   Timeseries.html	Page displaying forecasted sale graph
+  
   Procfile	 list of process types in an app (for Heroku Deployment only)
+  
   Requirements.txt	Specification of what python packages are required to run the project 
+  
   App.py	This will be our main project file, all our Python code will be in this file (Routes, MySQL connection, validation, etc).
 
 
